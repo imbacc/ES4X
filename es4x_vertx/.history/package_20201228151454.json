@@ -5,8 +5,8 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "start": "es4x ./src/index.js",
-    "test": "es4x test ./test/index.test.js",
+    "start": "es4x ./src/index",
+    "test": "es4x test ./src/test/index.test.js",
     "postinstall": "es4x install",
     "dockerfile": "es4x dockerfile"
   },

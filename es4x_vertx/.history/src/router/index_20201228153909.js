@@ -12,6 +12,6 @@ module.exports = (vertx, app) => {
     list.forEach((info) => info.map((module) => new vertxRouterClass(module, router)))  //循环子模块路由配置 生产路由
     
     app.requestHandler(router)  //注册路由
-	console.log(`生产路由: ${(new Date().getTime() - time) / 1000}s`)
+	console.log(`生产路由 ${(new Date().getTime() - time) / 1000}s`)
     // console.log(list)	//打印所有路由
 }

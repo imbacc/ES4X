@@ -5,8 +5,8 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "start": "es4x ./src/index.js",
-    "test": "es4x test ./test/index.test.js",
+    "start": "es4x",
+    "test": "es4x test index.test.js",
     "postinstall": "es4x install",
     "dockerfile": "es4x dockerfile"
   },
@@ -23,8 +23,7 @@
     "@vertx/kafka-client": "^3.9.1",
     "@vertx/mysql-postgresql-client": "^3.9.1",
     "@vertx/redis-client": "^3.9.1",
-    "@vertx/web": "^3.9.1",
-    "md5-node": "^1.0.1"
+    "@vertx/web": "^3.9.1"
   },
   "mvnDependencies": []
 }

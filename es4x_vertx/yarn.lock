@@ -94,3 +94,8 @@ es4x-pm@^0.12.0:
   version "0.12.0"
   resolved "https://registry.npm.taobao.org/es4x-pm/download/es4x-pm-0.12.0.tgz#05fb22f5390c4041835086f70a45d31b41b66ae9"
   integrity sha1-Bfsi9TkMQEGDUIb3CkXTG0G2auk=
+
+md5-node@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npm.taobao.org/md5-node/download/md5-node-1.0.1.tgz#0e22d009d46bdc95b1d3c5e8c8feddc1a5c3aa88"
+  integrity sha1-DiLQCdRr3JWx08XoyP7dwaXDqog=

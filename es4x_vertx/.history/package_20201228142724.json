@@ -3,28 +3,35 @@
   "version": "0.0.1",
   "description": "",
   "private": true,
+
   "main": "index.js",
+
   "scripts": {
-    "start": "es4x ./src/index.js",
+    "start": "es4x",
+    "debug": "npm start -- -Dinspect",
     "test": "es4x test ./test/index.test.js",
     "postinstall": "es4x install",
     "dockerfile": "es4x dockerfile"
   },
+
   "keywords": [],
   "author": "",
   "license": "ISC",
+
   "devDependencies": {
     "@vertx/unit": "^3.9.1",
     "es4x-pm": "^0.12.0"
   },
+
   "dependencies": {
     "@vertx/auth-jwt": "^3.9.1",
-    "@vertx/core": "^3.9.1",
-    "@vertx/kafka-client": "^3.9.1",
-    "@vertx/mysql-postgresql-client": "^3.9.1",
-    "@vertx/redis-client": "^3.9.1",
     "@vertx/web": "^3.9.1",
-    "md5-node": "^1.0.1"
+    "@vertx/redis-client": "^3.9.1",
+    "@vertx/mysql-postgresql-client": "^3.9.1",
+    "@vertx/kafka-client": "^3.9.1",
+    "@vertx/core": "^3.9.1"
   },
-  "mvnDependencies": []
+
+  "mvnDependencies": [
+  ]
 }
